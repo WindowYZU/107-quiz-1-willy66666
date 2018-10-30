@@ -6,6 +6,7 @@
 package lendle.courses.wp.quiz_comboboxandslider;
 
 import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javax.swing.DefaultListModel;
 import javax.swing.JFrame;
 import javax.swing.JSlider;
@@ -89,7 +90,9 @@ public class NewJFrame extends javax.swing.JFrame {
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
         // TODO add your handling code here:
         String value = (String) jComboBox1.getSelectedItem();
-        
+        for(int i =0;i<=100;i++){
+            
+        }
     }//GEN-LAST:event_jComboBox1ActionPerformed
     /**
      * @param args the command line arguments
@@ -133,8 +136,7 @@ public class NewJFrame extends javax.swing.JFrame {
         slider.setMinorTickSpacing(10);
         slider.setMajorTickSpacing(10);
         slider.setPaintLabels(true);
-        frame.add(slider);
-      
+        frame.add(slider);  
         frame.setVisible(true);
         
         
